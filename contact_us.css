@@ -1,0 +1,150 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("http://localhost/SB_project/photoss/pricingback.jpg");
+    position: fixed;
+    background-size: cover;
+}
+
+.container{
+    max-width: 700px;
+    padding: 30px;
+    margin: 68px 95px;
+    box-shadow: 0 15px 20px;
+}
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    color:black;
+    padding-bottom: 8px;
+    border-bottom: solid 1px silver;
+   
+}
+.content{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    
+}
+.input_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.input_box:nth-child(2n){
+
+    justify-content: end;
+}
+.input_box label,.gender{
+    width: 95%;
+    color:rgb(0, 48, 49);
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: large;
+}
+.gender{
+    font-size: 16px;
+}
+.input_box input{
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border:solid 1px #ccc;
+    outline: none;
+
+}
+.gendercategory{
+    color:black;
+}
+.gendercategory label{
+ 
+    padding: 0 20px 0 5px;
+    font-size: 14px;
+}
+.gendercategory label,gendercategory input{
+    cursor: pointer;
+}
+.buttom{
+    margin: 15px 0;
+}
+
+.sraj{
+       margin-left: 160px;
+       margin-top: 30px;
+       
+       
+}
+.sraj button{
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(210, 39, 119);
+    font-size: 20px;
+    color: black;
+    
+}
+.mainn{
+    height: 649px;
+    width: 799px;
+    border: solid 2px black;
+    position: absolute;
+    margin-left: -82px;
+    margin-top: -73px;
+}
+.bord{
+    height: 695px;
+    width: 900px;
+    margin-left: 300px;
+    float: left;
+  
+}
+input{
+    color: black;
+}
+li{
+    float: left;
+    margin: 80px;
+    margin-top: 20px;
+   
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+ul{
+    margin-left: 100px;
+    
+}
+
+
+.contents a:first-child{
+    color: rgb(15, 16, 16);
+    
+  }
+.contents a:hover{
+    color: aquamarine;
+}
+.input_box select {
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: solid 1px ;
+    outline: none;
+    color: black;
+}

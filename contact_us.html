@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior SB > contact_us </title>
+    <link rel="stylesheet" type="text/css" href="contact_us.css">
+</head>
+<body>
+    <div class="bord">
+        <div class="contents">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="contact_us.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <form action="first.php" method="POST">
+                <h2>Contact</h2>
+                <div class="content">
+                    <div class="input_box">
+                        <label for="name">Full Name</label>
+                        <input type="text" placeholder="enter your full name" name="name" >
+                    </div>
+                    <div class="input_box">
+                        <label for="plan">Plan</label>
+                        <select name="plan">
+                            <option value="">Select a plan</option>
+                            <option value="basic">Basic Plan</option>
+                            <option value="premium">Premium Plan</option>
+                            <option value="exclusive">Exclusive Plan</option>
+                        </select>
+                    </div>
+                    <div class="input_box">
+                        <label for="email">Email</label>
+                        <input type="text" placeholder="enter the valid email address" name="email" >
+                    </div>
+                    <div class="input_box">
+                        <label for="number">Phone Number</label>
+                        <input type="text" placeholder="enter your mobile number" name="number" >
+                    </div>
+                    <div class="input_box">
+                        <label for="address">Address</label>
+                        <input type="text" placeholder="enter your address" name="address" >
+                    </div>
+                    <div class="input_box">
+                        <label for="message">Your Requirements</label>
+                        <input type="text" placeholder="your message" name="message" >
+                    </div>
+                    <span class="gender">Gender</span>
+                    <div class="gendercategory">
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="transgender" value="transgender">
+                        <label for="transgender">Other</label>
+                    </div>
+                </div>
+                <div class="sraj">
+                    <button type="submit">Contact</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="contact_us.js"></script>
+</body>
+</html>
+
+<!--  -->
